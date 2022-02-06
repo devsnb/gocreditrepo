@@ -5,6 +5,6 @@ spring:
     password: root
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: updat
     database-platform: org.hibernate.dialect.MySQL5Dialect
-    show-sql: true
+    show-sql: false
